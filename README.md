@@ -91,5 +91,5 @@ ingJuan.calcularPasosPorDia(185);;
 
 #### Diplomado de Automatización de Pruebas Web
 ##### Dip Learn Academy y AseUTP
-***Juan de Jesús Fernández Graciano***
-***Bryan Estefan Moreno Diaz***
+##### Juan de Jesús Fernández Graciano
+##### Bryan Estefan Moreno Diaz
