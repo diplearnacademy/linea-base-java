@@ -4,9 +4,9 @@
 
 Este proyecto esta enfocado en brindar la mayor cantidad de conceptos importante sobre Java y POO con el fin de enseñar y reforzar el conocimiento base para la automatización de pruebas web.
 
-###Java - Conceptos Básicos
+### Java - Conceptos Básicos
 
-####Partes básicas de una Clase
+#### Partes básicas de una Clase
 
 ```java
 public class Persona {
@@ -65,7 +65,7 @@ Estos van acompañados de los modificadores de acceso, tipo de dato, nombre y as
 }
 ```
 
-####Declaración de Objetos
+#### Declaración de Objetos
 ```java
 //Objeto creado con constructor que recibe parámetros.
 Persona ingJuan = new Persona(1088, "Juan"); 
@@ -73,7 +73,7 @@ Persona ingJuan = new Persona(1088, "Juan");
 Persona ingJuan = new Persona();
 ```
 
-####Invocación de Métodos desde los Objetos
+#### Invocación de Métodos desde los Objetos
 ```java
 //Si se quiere asignar valores a atributos privados, se puede hacer con los set enviando parametros..
 ingJuan.setNombre("Carlos");
@@ -82,14 +82,14 @@ ingJuan.getNombre()
 //Invocar métodos diferentes a Get y Set pasando parámetros.
 ingJuan.calcularPasosPorDia(185);;
 ```
-###Happy Coding!
+### Happy Coding!
 
 
 ------------
 
 
 
-####Diplomado de Automatización de Pruebas Web
-#####Dip Learn Academy y AseUTP
+#### Diplomado de Automatización de Pruebas Web
+##### Dip Learn Academy y AseUTP
 ***Juan de Jesús Fernández Graciano***
 ***Bryan Estefan Moreno Diaz***
