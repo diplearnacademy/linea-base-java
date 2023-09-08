@@ -1,5 +1,7 @@
+package clases_java;
+
 public class Charmander {
-    private String nombre = "Charmander";
+    private String nombre = "clases_java.Charmander";
     private String tipo = "Fuego";
     private double altura;
     private double peso;

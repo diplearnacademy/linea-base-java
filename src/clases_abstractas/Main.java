@@ -1,7 +1,4 @@
-package herencia;
-
-import utilidades.EnumEjemplo;
-import utilidades.InfoPokemonEnum;
+package clases_abstractas;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,14 +8,15 @@ public class Main {
         PokemonFuego charmander = new PokemonFuego("clases_java.Charmander",0.6,5.6, "Macho", "MarLlamas",debilidadesCharmander);
         PokemonAgua squirtle = new PokemonAgua("Squirtle",0.8,8.6, "Hembra", "Torrente", debilidadesSquirtle);
 
-        System.out.println("clases_java.Charmander tiene " + charmander.getPuntosVida() + " puntos de vida");
+        //INFORMACION POKEMON
+        System.out.println("Charmander tiene " + charmander.getPuntosVida() + " puntos de vida");
         System.out.println("Squirtle tiene " + squirtle.getPuntosVida() + " puntos de vida");
+
+        //INICIA LA BATALLA
 
         squirtle.atacar(charmander, 10);
         charmander.recibirDanoPorAtaque(squirtle.getTipo(), 10);
-
-        System.out.println("Puntos de vida actuales:" + charmander.getPuntosVida());
-
-
+        charmander.curar();
+        squirtle.curar();
     }
 }

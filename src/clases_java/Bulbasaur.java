@@ -1,6 +1,8 @@
+package clases_java;
+
 public class Bulbasaur {
 
-    private String nombre = "Bulbasaur";
+    private String nombre = "clases_java.Bulbasaur";
     private double altura;
     private double peso;
     private String sexo;
