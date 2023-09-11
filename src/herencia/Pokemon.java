@@ -1,2 +1,4 @@
-package herencia;public class Pokemon {
+package herencia;
+
+public class Pokemon {
 }
